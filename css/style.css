@@ -1,0 +1,22 @@
+:root{
+    --mainfont:'Satisfy', cursive;
+    --defaultfont:'Architects Daughter', cursive;
+}
+body{
+background-image: url(../img/background.jpg);
+}
+
+h1{
+font-family:var(--mainfont) ;
+
+}
+p{
+font-family:var(--defaultfont) ;
+}
+#Btn{
+    background-color: white;
+    font-family: var(--defaultfont);
+}
+#Btn:hover{
+    background-color: rgb(195, 53, 53);
+}
